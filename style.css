@@ -1,0 +1,42 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right top, black,green,black);
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 4px #bababa;
+    text-align: center;
+}
+
+a, button {
+    text-decoration: none;
+}
+
+.logo {
+    width: 180px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px black;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    background-color: green;
+    border: solid 3px black;
+    color: white;
+    font-weight: bold;
+    width: 250px;
+    height: 40px;
+    transition: .3s all;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    border: solid 3px green;
+    box-shadow:1px 1px 10px #333 ;
+}
